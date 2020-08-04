@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#9D794C</color>
     <color name="colorAccent">#F9AF54</color>
     <color name="colorBackgroundApp">#E09D45</color>
+    <color name="colorBackgroundSnackbar">#FFFFFF</color>
 </resources>

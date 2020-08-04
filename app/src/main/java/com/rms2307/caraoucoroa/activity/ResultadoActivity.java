@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.rms2307.caraoucoroa.R;
 import com.rms2307.caraoucoroa.util.Logica;
 
@@ -38,6 +39,11 @@ public class ResultadoActivity extends AppCompatActivity {
             public void onClick(View view) {
                 numero = l.geraNumeroRandomico();
                 caraOuCoroa();
+                Snackbar.make(
+                        view,
+                        "JOGADA REALIZADA",
+                        Snackbar.LENGTH_LONG
+                ).show();
             }
         });
 
